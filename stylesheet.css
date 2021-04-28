@@ -1,0 +1,41 @@
+body {
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 15px;
+	font-family: 'Lato', sans-serif;
+	background: url('../images/FH.jpg');
+	
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+
+#UniversityContent {
+	background: #4b5059;
+	width: 500px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h1 {
+	font-size: 80px;
+	padding: 5px;
+}
+
+h2 {
+	background: #d1e1ee;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color: #d1e1ee;
+	text-decoration: none;
+}
